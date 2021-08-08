@@ -1,0 +1,31 @@
+.timer__items {
+    display: flex;
+    font-size: 12px;
+    color: #fff;
+    position: static;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+    
+.timer__item {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    height: 112px;
+    width: 107px;
+    background-color: #121212;
+    padding-top: 20px;
+}
+
+.timer {
+    padding-top: 200px;
+}
+
+.timer-text {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+}

@@ -33,39 +33,53 @@
                     <a class="login" href="#">Зайти в кабинет</a>
                 </div>
             </div> 
-            <div class="timer">
-                <div id="hours" class="number"></div>
-                <div id="minutes" class="number"></div>
-                <div id="seconds" class="number"></div>
-            </div>
             <div class="container">
-                <h1 class="head">Первый курс по компьютерной сборке</h1> 
-            </div>
-            <div class="progress">
-                <div class="container students">
+                <h1 class="head">Первый курс по компьютерной сборке</h1>
+                <div class="timer">
+                    <div class="timer__items">
+                            <div id="days" class="timer__item timer__days">
+                                <div class="timer-text">Дней</div>
+                            </div>
+                               
+                            <div id="hours" class="timer__item timer__days">
+                                <div class="timer-text">Часов</div>
+                            </div>
+                            
+                            <div id="minutes" class="timer__item timer__days">
+                                <div class="timer-text">Минут</div>
+                            </div>
+
+                            <div id="seconds" class="timer__item timer__days">
+                                <div class="timer-text">Секунд</div>
+                            </div>
+                            
+                        </div>    
+                    </div>
+                  </div> 
+            </div>    
+    </header>
+        <div class="progress">
+            <div class="container students">
                 <div>
                     <div class="order-btn">
                         <a href="#">Заказать курс</a>
                     </div>
                 </div>
-                <div >
-                    <div class="all-students">
-                        <p class="digit-students">Учеников всего</p>
-                        <p class="numbers" data-students="200"></p>
-                    </div>   
-                    <div class="students">
+            <div>
+                <div class="all-students">
+                    <p class="digit-students">Учеников всего</p>
+                    <p class="numbers" data-students="200"></p>
+                </div>   
+                <div class="students">
                          <p class="digit-students">Успешно закончили курс</p>
                          <p class="numbers" data-students-completed="190"></p>
-                    </div>
-                    <div class="progress-bar">
+                </div>
+                <div class="progress-bar">
                         <div class="gradient"></div>
-                    </div>
                 </div>
-                </div>
-            </div>             
-    </header>
-    
-
+            </div>
+            </div>
+        </div>          
     <div class class="about-us"></div>
     <script src="./js/script.js"></script>
     <script src="./js/progress.js"></script>

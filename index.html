@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</headre>
+<body>
+    <header class="header">    
+            <div class="header__top">
+                <div class="logo">
+                    <a href="#">
+                        <img src="/images/logo.png" alt="">
+                    </a>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                      <li><a href="#">Главная</a></li>
+                      <li><a href="#">Курсы</a></li>
+                      <li><a href="#">Расписание</a></li>
+                      <li><a href="#">Преподаватели</a></li>
+                      <li><a href="#">Рассылки</a></li>
+                      <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+          
+                <div class="header-btn">
+                    <a class="login" href="#">Зайти в кабинет</a>
+                </div>
+            </div> 
+            <div class="timer">
+                <div id="hours" class="number"></div>
+                <div id="minutes" class="number"></div>
+                <div id="seconds" class="number"></div>
+            </div>
+            <div class="container">
+                <h1 class="head">Первый курс по компьютерной сборке</h1> 
+            </div>
+            <div class="progress">
+                <div class="container students">
+                <div>
+                    <div class="order-btn">
+                        <a href="#">Заказать курс</a>
+                    </div>
+                </div>
+                <div >
+                    <div class="all-students">
+                        <p class="digit-students">Учеников всего</p>
+                        <p class="numbers" data-students="200"></p>
+                    </div>   
+                    <div class="students">
+                         <p class="digit-students">Успешно закончили курс</p>
+                         <p class="numbers" data-students-completed="190"></p>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+                </div>
+            </div>             
+    </header>
+    
+
+    <div class class="about-us"></div>
+    <script src="./js/script.js"></script>
+    <script src="./js/progress.js"></script>
+</body>
+</html>

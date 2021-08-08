@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    max-width: 1920px;
+    background-image: url(/images/main-screen__bgc.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    max-width: 1296px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.menu__list {
+    display: flex;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.menu__list li + li {
+    padding-left: 56px;
+
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    padding-left: 60px;
+}
+
+.timer {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-btn {
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
+    height: 44px;
+    width: 183px;
+    padding: 10px 30px;
+    margin-right: 60px;
+}
+
+.head {
+    padding-top: 200px;
+    color:#fff;
+    width: 920px;
+    height: 180px;
+    font-size: 64px;
+    line-height: 89.6px;
+    font-weight: 700;
+}
+
+.progress {
+    max-width: 1920px;
+    height: 120px;
+    background-color: #121212;
+    background-repeat: no-repeat;
+    margin-top: 380px;
+}
+
+.order-btn {
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    height: 44px;
+    width: 169px;
+    padding: 10px 30px;
+}
+
+.digit-students {
+    color:#fff;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    font-style: normal;
+    opacity: 0.4;
+}
+
+.numbers {
+    color:#fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.students {
+    display: flex;
+}
+
+.number {
+    text-align: center;
+}
+
+#days {
+    width:60px;
+    height: 60px;
+    background-color: #121212;
+    font-size: 36px;
+    color:#fff;
+    font-weight: 700;
+}
+
+#hours {
+    width:60px;
+    height: 60px;
+    background-color: #121212;
+    font-size: 18px;
+    color:#fff;
+    font-weight: 700;
+}
+#minutes {
+    width:60px;
+    height: 60px;
+    background-color: #121212;
+    font-size: 18px;
+    color:#fff;
+    font-weight: 700;
+}
+#seconds {
+    width:60px;
+    height: 60px;
+    background-color: #121212;
+    font-size: 18px;
+    color:#fff;
+    font-weight: 700;
+}
+
+.progress-bar {
+    margin-top:20px ;
+    display: flex;
+    background-color: #fff;
+    height:6px;
+    width: 714px;
+}
+
+.gradient {
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.gradient-active {
+    animation-name: progress;
+    animation-duration: 5000ms;
+    animation-fill-mode: forwards;
+    animation-delay: 200ms;
+}
+
+@keyframes progress{
+    from { 
+        width: 0;
+    }
+
+    to {
+        width: 62%;
+    }
+}

@@ -1,0 +1,21 @@
+
+.progress-bar {
+    width: 740px;
+    height: 6px;
+    background-color: #fff;
+}
+
+
+@keyframes progress{
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 66%;
+    }
+}
+
+.gradient {
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}

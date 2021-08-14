@@ -2,6 +2,7 @@
 
 const now = new Date();
 
+
 const dBox = document.getElementById('days');
 const hBox = document.getElementById('hours');
 const mBox = document.getElementById('minutes');
@@ -19,7 +20,7 @@ const timer = times => {
 	let tm = setInterval(() => {
 		// уменьшаем значение секунд на 1
 		times[3]--;
-		if (times[1] == 0 && times[2] == 0 && times[2] == 0) {
+		if (times[0] = 0 && times[1] == 0 && times[2] == 0 && times[2] == 0) {
 			clearInterval(tm);
 		} else {
             if (times[3] < 0) {
@@ -45,9 +46,9 @@ const timer = times => {
 
 let times = [
 	18 - now.getDay(),
-    22 - now.getHours(),
-    5 - now.getMinutes(),
-    0 - now.getSeconds(),
+    18 - now.getHours(),
+    18 - now.getMinutes(),
+    18 - now.getSeconds(),
 ];
 
 timer(times);

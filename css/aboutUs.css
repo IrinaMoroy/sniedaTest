@@ -1,0 +1,53 @@
+.about-us {
+    background-image: url(../images/bgc.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.specialization {
+    display: flex;
+    padding-top: 200px;
+    justify-content: space-between;
+}
+
+.rectangle-25 {
+    position: absolute;
+    width: 526px;
+    height: 499px;
+    
+    top: 1160px;
+}
+
+.computer-img {
+    position: absolute;
+    width: 446px;
+    height: 446px;
+    left: 152px;
+    top: 1256px;
+}
+  
+.about-us-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.about-us-text-box {
+    padding-left: 50%;
+    padding-top: 70px;
+}
+
+.about-us-text {
+    padding-top: 45px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+

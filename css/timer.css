@@ -11,7 +11,6 @@
 .timer__item {
     margin-left: 10px;
     margin-right: 10px;
-    padding-bottom: 15px;
     text-align: center;
     height: 112px;
     width: 107px;
@@ -24,7 +23,7 @@
 }
 
 .timer-text {
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
     font-weight: normal;
     font-size: 16px;

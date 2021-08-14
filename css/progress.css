@@ -1,6 +1,7 @@
 
 .progress-bar {
-    width: 740px;
+    display: inline-block;
+    width: 640px;
     height: 6px;
     background-color: #fff;
 }
@@ -18,4 +19,59 @@
 
 .gradient {
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+
+.progress {
+    display: flex;
+    padding-top: 53px;
+    max-width: 1920px;
+    height: 130px;
+    background-color: #121212;
+    background-repeat: no-repeat;
+    top: 830px;
+}
+
+.students-money{
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.order-btn {
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    height: 44px;
+    width: 169px;
+    padding: 10px 30px;
+}
+
+.digit-students {
+    color:#fff;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    font-style: normal;
+    opacity: 0.4;
+}
+
+.numbers {
+    display: flex;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.number-students {
+    padding-left: 30px;
+}
+
+.all-students {
+    padding-left: 81px;
 }

@@ -41,15 +41,15 @@
                                 <div class="timer-text">Дней</div>
                             </div>
                                
-                            <div id="hours" class="timer__item timer__days">
+                            <div id="hours" class="timer__item timer__hours">
                                 <div class="timer-text">Часов</div>
                             </div>
                             
-                            <div id="minutes" class="timer__item timer__days">
+                            <div id="minutes" class="timer__item timer__minutes">
                                 <div class="timer-text">Минут</div>
                             </div>
 
-                            <div id="seconds" class="timer__item timer__days">
+                            <div id="seconds" class="timer__item timer__seconds">
                                 <div class="timer-text">Секунд</div>
                             </div>
                             
@@ -58,29 +58,55 @@
                   </div> 
             </div>    
     </header>
-        <div class="progress">
-            <div class="container students">
-                <div>
-                    <div class="order-btn">
-                        <a href="#">Заказать курс</a>
+        <div class=" progress students">
+                <div class="order-btn">
+                    <a href="#">Заказать курс</a>
+                </div>
+                <div class="all-students">  
+                        <p class="digit-students">Учеников всего:</p>
+                        <p class="digit-students">Успешно закончили курс:</p>
+                </div>    
+                <div class="number-students">
+                        <p class="numbers" data-students="200">200</p>
+                        <p class="numbers" data-students-completed="190">190</p>
+                </div>
+                <div class="students-money">
+
+                    <div class="all-students">  
+                        <p class="digit-students">Заработано учениками:</p>
+                    </div> 
+
+                    <div class="number-students">
+                        <p class="numbers">400 000 ₽</p>
                     </div>
-                </div>
-            <div>
-                <div class="all-students">
-                    <p class="digit-students">Учеников всего</p>
-                    <p class="numbers" data-students="200"></p>
-                </div>   
-                <div class="students">
-                         <p class="digit-students">Успешно закончили курс</p>
-                         <p class="numbers" data-students-completed="190"></p>
-                </div>
-                <div class="progress-bar">
+
+                    <div class=" progress-bar ">
                         <div class="gradient"></div>
-                </div>
+                    </div>   
+                </div>         
+        </div>
+
+    <section class=" about-us">
+        <div class="container specialization">
+            <div class="about-us-photo">
+                <img class="rectangle-25" src="./images/Rectangle 25.png">
+                <img class="computer-img" src="./images/image.png">
             </div>
+
+            <div class="about-us-text-box">
+                <h2 class="about-us-title"> Чем мы занимаемся</h2>
+                <p class="about-us-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum molestiae sapiente sunt cum 
+                    vel neque totam omnis voluptate molestias eligendi sequi quasi expedita, ea excepturi, nisi 
+                    quam exercitationem nesciunt nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ipsum molestiae sapiente sunt cum vel neque totam omnis voluptate molestias eligendi sequi 
+                    quasi expedita, ea excepturi, nisi quam exercitationem nesciunt nemo!
+                </p>
             </div>
-        </div>          
-    <div class class="about-us"></div>
+
+        </в>
+    </section>
+
+
     <script src="./js/script.js"></script>
     <script src="./js/progress.js"></script>
 </body>

@@ -26,7 +26,7 @@
     display: flex;
     padding-top: 53px;
     max-width: 1920px;
-    height: 130px;
+    min-height: 130px;
     background-color: #121212;
     background-repeat: no-repeat;
     top: 830px;

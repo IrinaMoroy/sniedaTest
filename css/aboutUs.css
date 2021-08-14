@@ -39,6 +39,7 @@
 .about-us-text-box {
     padding-left: 50%;
     padding-top: 70px;
+    color: #fff;
 }
 
 .about-us-text {
@@ -51,3 +52,117 @@
     color: #FFFFFF;
 }
 
+.fast-start{
+    padding-top: 400px;
+    display: flex;
+    justify-content: start;
+}
+
+.start-logo {
+    transform: rotate(45deg);
+}
+
+.start-title{
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 67px;
+    text-align: left;
+    color: #fff;
+}
+
+.start-text{
+    padding-top: 50px;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: Left;
+    vertical-align: Top;
+    Opacity: 50%;
+    color: #fff;
+}
+
+.infographic {
+    padding-top: 80px;
+    display: table;
+    flex-direction: row;   
+}
+
+.start-infographik-text {
+    padding-top: 35px;
+    max-width: 306px;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 22px;
+    opacity: 50%;
+    color: white;
+}
+
+.percent {
+    padding-bottom: 20px;
+    padding-top: 80px;
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: left;
+    color: #fff;
+}
+
+.start-infographic {
+  display: table-cell;
+}
+
+.graphik {
+    text-align: center;
+}
+
+.advantages-form {
+    display: flex;
+    padding-top: 120px;
+}
+
+.advantages-title {
+    padding-top: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.advantages {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 350px;
+}
+
+.icon-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;    
+    color: #FFFFFF;
+}
+
+.advantages-icon {
+    padding-bottom: 60px;
+}
+
+.advantages-text {
+    padding-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
